@@ -15,9 +15,3 @@ CREATE TABLE `member_payment_detail` (
   `creditcard_date` varchar(10) COLLATE utf8_bin NOT NULL,
   `creditcard_security_code` int(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `member_payment_detail`
---
-
-TRUNCATE TABLE `member_payment_detail`;

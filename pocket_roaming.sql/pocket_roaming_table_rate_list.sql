@@ -14,9 +14,3 @@ CREATE TABLE `rate_list` (
   `rate_description` varchar(255) COLLATE utf8_bin DEFAULT NULL,
   `rate_grade` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `rate_list`
---
-
-TRUNCATE TABLE `rate_list`;

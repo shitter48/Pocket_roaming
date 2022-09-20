@@ -14,9 +14,3 @@ CREATE TABLE `order_details` (
   `item_return_way` int(11) NOT NULL,
   `item_price` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `order_details`
---
-
-TRUNCATE TABLE `order_details`;

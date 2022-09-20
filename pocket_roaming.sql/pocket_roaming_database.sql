@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： localhost:3306
--- 產生時間： 2022-09-20 07:02:18
+-- 產生時間： 2022-09-20 08:08:17
 -- 伺服器版本： 5.7.24
 -- PHP 版本： 8.0.1
 
@@ -20,5 +20,3 @@ SET time_zone = "+00:00";
 --
 -- 資料庫: `pocket_roaming`
 --
-CREATE DATABASE IF NOT EXISTS `pocket_roaming` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-USE `pocket_roaming`;

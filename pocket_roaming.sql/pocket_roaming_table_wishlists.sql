@@ -16,9 +16,3 @@ CREATE TABLE `wishlists` (
   `item_likes` int(20) NOT NULL,
   `item_comment` varchar(255) COLLATE utf8_bin DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `wishlists`
---
-
-TRUNCATE TABLE `wishlists`;

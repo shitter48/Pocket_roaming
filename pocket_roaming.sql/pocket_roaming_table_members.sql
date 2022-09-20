@@ -21,12 +21,6 @@ CREATE TABLE `members` (
   `member_ban_date` date DEFAULT NULL,
   `member_token` varchar(20) COLLATE utf8_bin DEFAULT NULL,
   `member_balance` int(255) DEFAULT NULL,
-  `account_create_time` date NOT NULL,
-  `last_login_time` date NOT NULL
+  `account_create_time` datetime NOT NULL,
+  `last_login_time` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `members`
---
-
-TRUNCATE TABLE `members`;

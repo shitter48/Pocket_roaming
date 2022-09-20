@@ -16,9 +16,3 @@ CREATE TABLE `items` (
   `item_times_rent_out` int(20) NOT NULL,
   `category_id` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `items`
---
-
-TRUNCATE TABLE `items`;

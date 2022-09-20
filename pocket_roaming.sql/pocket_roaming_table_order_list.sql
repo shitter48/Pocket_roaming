@@ -17,9 +17,3 @@ CREATE TABLE `order_list` (
   `order_isviolate` tinyint(1) NOT NULL,
   `order_violate_type` int(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- 資料表新增資料前，先清除舊資料 `order_list`
---
-
-TRUNCATE TABLE `order_list`;
